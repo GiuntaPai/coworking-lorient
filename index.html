@@ -15,10 +15,12 @@
    le bandeau de fin garde son inverse, qui lui plaisait. Un seul monde visuel, donc pas
    de theme sombre: la page pose son fond et ses encres elle-meme, quel que soit l'ecran. */
 :root{
-  /* LE JAUNE, CHOISI ENTRE DEUX (Paul, 12/09/2026 a 17 h 31): le 2 (#FFEB3B) tirait trop
-     clair, le 3 (#FFDE00) trop dense. Celui-ci est le milieu exact des deux. */
-  --poussin:#FFE41E;
-  --poussin-fonce:#F0D200;
+  /* LE JAUNE (Paul, 12/09/2026 a 17 h 37, solution A). Il voulait le jaune signal, mais
+     *"j'ai l'impression qu'il va donner mal aux yeux aux gens sur internet"*: sur un aplat
+     plein ecran, c'est la saturation qui fatigue, pas la teinte. Celui-ci garde la teinte
+     du signal (52) et descend la saturation de 100 a 95 %, clarte 58 %. */
+  --poussin:#FADF2E;
+  --poussin-fonce:#E9CB10;
   --encre:#14140F;
   --encre-douce:#4A4738;
   --fond:var(--poussin);
